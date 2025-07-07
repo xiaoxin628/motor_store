@@ -42,7 +42,7 @@ gem "thruster", require: false
 
 gem "graphql", "~> 2.0"
 
-gem "shakapacker", "7.0.1"
+gem "shakapacker", "8.3.0"
 gem "react_on_rails", "13.3.1"
 
 group :development, :test do
