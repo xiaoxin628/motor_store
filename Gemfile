@@ -43,7 +43,7 @@ gem "thruster", require: false
 gem "graphql", "~> 2.0"
 
 gem "shakapacker", "7.0.1"
-gem "react_on_rails", "13.3.1"
+gem "react_on_rails", "14.2.1"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
