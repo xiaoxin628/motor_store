@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a demo that utilising Ruby on Rails, React and tailwind.
 
-Things you may want to cover:
+The products are filtered by the filter dynamically without refreshing the page.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+https://github.com/user-attachments/assets/2b1ced7e-274c-4e77-9e1e-8da1b8618d39
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
