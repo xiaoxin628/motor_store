@@ -1889,7 +1889,7 @@ var require_react_dom_development = __commonJS({
         return dispatcher;
       }
       "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-      var React4 = require_react(), Internals = {
+      var React9 = require_react(), Internals = {
         d: {
           f: noop,
           r: function() {
@@ -1907,7 +1907,7 @@ var require_react_dom_development = __commonJS({
         },
         p: 0,
         findDOMNode: null
-      }, REACT_PORTAL_TYPE = Symbol.for("react.portal"), ReactSharedInternals = React4.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
+      }, REACT_PORTAL_TYPE = Symbol.for("react.portal"), ReactSharedInternals = React9.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
       "function" === typeof Map && null != Map.prototype && "function" === typeof Map.prototype.forEach && "function" === typeof Set && null != Set.prototype && "function" === typeof Set.prototype.clear && "function" === typeof Set.prototype.forEach || console.error(
         "React depends on Map and Set built-in types. Make sure that you load a polyfill in older browsers. https://reactjs.org/link/react-polyfills"
       );
@@ -3449,7 +3449,7 @@ var require_react_dom_client_development = __commonJS({
         "number" === type && getActiveElement(node.ownerDocument) === node || node.defaultValue === "" + value || (node.defaultValue = "" + value);
       }
       function validateOptionProps(element, props) {
-        null == props.value && ("object" === typeof props.children && null !== props.children ? React4.Children.forEach(props.children, function(child) {
+        null == props.value && ("object" === typeof props.children && null !== props.children ? React9.Children.forEach(props.children, function(child) {
           null == child || "string" === typeof child || "number" === typeof child || "bigint" === typeof child || didWarnInvalidChild || (didWarnInvalidChild = true, console.error(
             "Cannot infer the option value of complex children. Pass a `value` prop or use a plain string as children to <option>."
           ));
@@ -17031,14 +17031,14 @@ var require_react_dom_client_development = __commonJS({
         ));
       }
       "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-      var Scheduler = require_scheduler(), React4 = require_react(), ReactDOM2 = require_react_dom(), assign = Object.assign, REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_PROVIDER_TYPE = Symbol.for("react.provider"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy");
+      var Scheduler = require_scheduler(), React9 = require_react(), ReactDOM2 = require_react_dom(), assign = Object.assign, REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_PROVIDER_TYPE = Symbol.for("react.provider"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy");
       Symbol.for("react.scope");
       var REACT_ACTIVITY_TYPE = Symbol.for("react.activity");
       Symbol.for("react.legacy_hidden");
       Symbol.for("react.tracing_marker");
       var REACT_MEMO_CACHE_SENTINEL = Symbol.for("react.memo_cache_sentinel");
       Symbol.for("react.view_transition");
-      var MAYBE_ITERATOR_SYMBOL = Symbol.iterator, REACT_CLIENT_REFERENCE = Symbol.for("react.client.reference"), isArrayImpl = Array.isArray, ReactSharedInternals = React4.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM2.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, NotPending = Object.freeze({
+      var MAYBE_ITERATOR_SYMBOL = Symbol.iterator, REACT_CLIENT_REFERENCE = Symbol.for("react.client.reference"), isArrayImpl = Array.isArray, ReactSharedInternals = React9.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM2.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, NotPending = Object.freeze({
         pending: false,
         data: null,
         method: null,
@@ -19752,7 +19752,7 @@ var require_react_dom_client_development = __commonJS({
         }
       };
       (function() {
-        var isomorphicReactPackageVersion = React4.version;
+        var isomorphicReactPackageVersion = React9.version;
         if ("19.1.0" !== isomorphicReactPackageVersion)
           throw Error(
             'Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:\n  - react:      ' + (isomorphicReactPackageVersion + "\n  - react-dom:  19.1.0\nLearn more: https://react.dev/warnings/version-mismatch")
@@ -25966,13 +25966,13 @@ var AttributeObserver = class {
   }
 };
 function add(map, key, value) {
-  fetch(map, key).add(value);
+  fetch2(map, key).add(value);
 }
 function del(map, key, value) {
-  fetch(map, key).delete(value);
+  fetch2(map, key).delete(value);
   prune(map, key);
 }
-function fetch(map, key) {
+function fetch2(map, key) {
   let values = map.get(key);
   if (!values) {
     values = /* @__PURE__ */ new Set();
@@ -27842,43 +27842,120 @@ var hello_controller_default = class extends Controller {
   }
 };
 
-// app/javascript/controllers/product_controller.jsx
-var import_react3 = __toESM(require_react());
+// app/javascript/controllers/products_filter_controller.jsx
+var import_react8 = __toESM(require_react());
 var import_client = __toESM(require_client());
 
 // app/javascript/controllers/App.jsx
 var import_react = __toESM(require_react());
 
-// app/javascript/components/ProductList.jsx
-var import_react2 = __toESM(require_react());
-var Clock = () => {
-  const [date, setDate] = (0, import_react2.useState)(/* @__PURE__ */ new Date());
-  const refreshClock = () => {
-    setDate(/* @__PURE__ */ new Date());
-  };
-  (0, import_react2.useEffect)(() => {
-    const timerId = setInterval(refreshClock, 1e3);
-    return function cleanup() {
-      clearInterval(timerId);
-    };
-  }, []);
-  return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("h1", null, "This is the clock component"), /* @__PURE__ */ import_react2.default.createElement("span", null, date.toLocaleTimeString()));
-};
-var ProductList_default = Clock;
+// app/javascript/components/ProductPage.jsx
+var import_react7 = __toESM(require_react());
 
-// app/javascript/controllers/product_controller.jsx
-var product_controller_default = class extends Controller {
+// app/javascript/components/ProductList.jsx
+var import_react4 = __toESM(require_react());
+
+// app/javascript/components/loader.jsx
+var import_react2 = __toESM(require_react());
+function loader() {
+  const [selectedBrand, setSelectedBrand] = (0, import_react2.useState)("");
+  return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("div", { className: "text-center", key: "loader" }, /* @__PURE__ */ import_react2.default.createElement("div", { role: "status" }, /* @__PURE__ */ import_react2.default.createElement("svg", { "aria-hidden": "true", className: "inline w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600", viewBox: "0 0 100 101", fill: "none", xmlns: "http://www.w3.org/2000/svg" }, /* @__PURE__ */ import_react2.default.createElement("path", { d: "M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z", fill: "currentColor" }), /* @__PURE__ */ import_react2.default.createElement("path", { d: "M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z", fill: "currentFill" })), /* @__PURE__ */ import_react2.default.createElement("span", { className: "sr-only" }, "Loading..."))));
+}
+var loader_default = loader;
+
+// app/javascript/components/ProductListItem.jsx
+var import_react3 = __toESM(require_react());
+function ProductListItem({ product }) {
+  return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, /* @__PURE__ */ import_react3.default.createElement("div", { className: "group relative", key: product.id }, /* @__PURE__ */ import_react3.default.createElement(
+    "img",
+    {
+      className: "aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-50 w-48 h-48",
+      src: product.image_url,
+      alt: product.name
+    }
+  ), /* @__PURE__ */ import_react3.default.createElement("div", { className: "mt-4 flex justify-between" }, /* @__PURE__ */ import_react3.default.createElement("div", null, /* @__PURE__ */ import_react3.default.createElement("h3", { className: "text-lg  text-black-900 font-semibold" }, /* @__PURE__ */ import_react3.default.createElement("a", { href: "#" }, /* @__PURE__ */ import_react3.default.createElement("span", { "aria-hidden": "true", className: "absolute inset-0" }), product.name)), /* @__PURE__ */ import_react3.default.createElement("p", { className: "mt-1 text-sm text-gray-500" }, product.brand), /* @__PURE__ */ import_react3.default.createElement("p", { className: "mt-1 text-sm text-gray-500" }, product.description)), /* @__PURE__ */ import_react3.default.createElement("p", { className: "text-sm font-medium text-gray-900" }, "$", product.price))));
+}
+var ProductListItem_default = ProductListItem;
+
+// app/javascript/components/ProductList.jsx
+function ProductList({ selectedBrand }) {
+  const endpoint = selectedBrand ? `products/search?brand=${selectedBrand}` : "products/search";
+  const [data, setData] = (0, import_react4.useState)([]);
+  const [loading, setLoading] = (0, import_react4.useState)(true);
+  const [error2, setError] = (0, import_react4.useState)(null);
+  (0, import_react4.useEffect)(() => {
+    let ignore = false;
+    async function fetchData() {
+      try {
+        const response = await fetch(endpoint);
+        if (!response.ok) {
+          throw new Error(`Response status: ${response.status}`);
+        }
+        const json = await response.json();
+        if (!ignore) {
+          setData(json);
+          setLoading(false);
+        }
+      } catch (error3) {
+        console.error(error3.message);
+        setError(error3);
+      }
+    }
+    fetchData();
+    return () => {
+      ignore = true;
+    };
+  }, [selectedBrand]);
+  return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, loading ? /* @__PURE__ */ import_react4.default.createElement(loader_default, null) : error2 ? /* @__PURE__ */ import_react4.default.createElement("div", null, "Error: ", error2.message) : /* @__PURE__ */ import_react4.default.createElement("div", { className: "mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8" }, data.products.map((product) => /* @__PURE__ */ import_react4.default.createElement(ProductListItem_default, { key: product.id, product }))));
+}
+var ProductList_default = ProductList;
+
+// app/javascript/components/ProductFilters.jsx
+var import_react6 = __toESM(require_react());
+
+// app/javascript/components/ProductFilters/ProductFilterBrand.jsx
+var import_react5 = __toESM(require_react());
+var ProductFilterBrand = ({ brands, onSelect }) => {
+  const listItems = brands.map((brand, index) => {
+    return /* @__PURE__ */ import_react5.default.createElement("option", { key: index, value: brand }, brand);
+  });
+  return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement("select", { id: "productFilterBrand", className: "border border-gray-300 rounded-md p-2", onChange: (e) => onSelect(e.target.value) }, /* @__PURE__ */ import_react5.default.createElement("option", { value: "" }, "Select a brand"), listItems));
+};
+var ProductFilterBrand_default = ProductFilterBrand;
+
+// app/javascript/components/ProductFilters.jsx
+var ProductFilters = ({ brands, onSelect }) => {
+  return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement("h2", { className: "text-xl font-semibold mb-4" }, "Filter Products"), /* @__PURE__ */ import_react6.default.createElement(ProductFilterBrand_default, { brands, onSelect }));
+};
+var ProductFilters_default = ProductFilters;
+
+// app/javascript/components/ProductPage.jsx
+var ProductPage = ({ brands }) => {
+  const [selectedBrand, setSelectedBrand] = (0, import_react7.useState)("");
+  console.log("selectedBrand", selectedBrand);
+  return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement(ProductFilters_default, { brands, onSelect: (selectedBrand2) => setSelectedBrand(selectedBrand2) }), /* @__PURE__ */ import_react7.default.createElement(ProductList_default, { selectedBrand }));
+};
+var ProductPage_default = ProductPage;
+
+// app/javascript/controllers/products_filter_controller.jsx
+var products_filter_controller_default = class extends Controller {
   connect() {
+    console.log("ProductFilterController connected");
     const root = import_client.default.createRoot(document.getElementById("app"));
+    const brands = JSON.parse(this.element.dataset.brands || "[]");
     root.render(
-      /* @__PURE__ */ import_react3.default.createElement(ProductList_default, null)
+      /* @__PURE__ */ import_react8.default.createElement(ProductPage_default, { brands }),
+      this.reactRootTarget
     );
+  }
+  disconnect() {
+    import_client.default.unmountComponentAtNode(this.reactRootTarget);
   }
 };
 
 // app/javascript/controllers/index.js
 application.register("hello", hello_controller_default);
-application.register("product", product_controller_default);
+application.register("product_filter", products_filter_controller_default);
 /*! Bundled license information:
 
 react/cjs/react.development.js:
