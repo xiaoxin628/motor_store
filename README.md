@@ -2,7 +2,7 @@
 
 This is a demo that utilising Ruby on Rails, React and tailwind.
 
-The products are filtered by the filter dynamically without refreshing the page.
+The products are filtered by the filter dynamically without refreshing the page. Data are loaded and rendered by Ajax queries from Ruby APIs.
 
 
 
