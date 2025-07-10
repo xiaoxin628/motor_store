@@ -18,22 +18,21 @@ class ProductsController < ApplicationController
       @brands = ["Toyota", "Honda", "Ford", "Chevrolet", "Nissan", "BMW", "Mercedes-Benz", "Volkswagen", "Audi", "Hyundai"]
       @selected_brand = params[:brand]
       # cache the products list
-      
       @products = Rails.cache.fetch("products", expires_in: 1.hours) do
+        cached_products = []
         20.times do
           cached_products << {
-            name: Faker::Vehicle.make_and_model,
+            name: Faker::Vehicle.model,
             price: Faker::Commerce.price(range: 1000..50000, as_string: true),
             description: Faker::Vehicle.standard_specs.join(", "),
             image_url: "https://picsum.photos/200/300?random=#{rand(1..100)}",
             brand: @brands.sample
           }
         end
-        logger.info('cached product')
         cached_products
       end
     end
-    
+
     def validate_params
       return false if params[:brand].blank?
 

@@ -15,11 +15,11 @@ function ProductListItem ({product }) {
             <div>
               <h3 className="text-lg  text-black-900 font-semibold">
                 <a href="#">
-                  <span aria-hidden="true" className="absolute inset-0"></span>
+                  <span aria-hidden="true" className="absolute inset-0 "></span>
                   {product.name}
                 </a>
               </h3>
-              <p className="mt-1 text-sm text-gray-500">{product.brand}</p>
+              <p className="rounded-md bg-cyan-500 px-4 py-4 my-2 text-sm font-semibold text-white text-center">{product.brand}</p>
               <p className="mt-1 text-sm text-gray-500">{product.description}</p>
             </div>
             <p className="text-sm font-medium text-gray-900">${product.price}</p>

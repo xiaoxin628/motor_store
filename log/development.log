@@ -4693,3 +4693,923 @@ Processing by ProductsController#search as */*
 Completed 200 OK in 72ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/" for ::1 at 2025-07-10 12:54:43 +1200
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+NameError (undefined local variable or method 'cached_products' for an instance of ProductsController):
+  
+app/controllers/products_controller.rb:24:in 'block (2 levels) in ProductsController#set_data'
+app/controllers/products_controller.rb:23:in 'block in ProductsController#set_data'
+app/controllers/products_controller.rb:22:in 'ProductsController#set_data'
+Started GET "/" for ::1 at 2025-07-10 12:55:07 +1200
+Processing by ProductsController#index as HTML
+cached product
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | GC: 0.0ms)
+Completed 200 OK in 128ms (Views: 28.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 4.5ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:55:07 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 104ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:55:09 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 74ms (Views: 4.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:55:10 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:55:38 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | GC: 0.0ms)
+Completed 200 OK in 101ms (Views: 23.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:55:38 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 125ms (Views: 4.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:55:40 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 74ms (Views: 3.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:55:40 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 100ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:57:24 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | GC: 0.0ms)
+Completed 200 OK in 131ms (Views: 22.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:57:24 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 107ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:57:25 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 74ms (Views: 3.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:57:25 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 100ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:57:26 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 73ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:57:26 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 106ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:58:16 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | GC: 5.3ms)
+Completed 200 OK in 143ms (Views: 38.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 19.7ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:58:16 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 134ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.5ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:58:33 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | GC: 2.5ms)
+Completed 200 OK in 124ms (Views: 36.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 4.1ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:58:33 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 104ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.2ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:59:27 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | GC: 0.0ms)
+Completed 200 OK in 120ms (Views: 20.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.7ms)
+
+
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 12:59:27 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:27 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 117ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:28 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:59:29 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 76ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:29 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 107ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:29 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 82ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:59:30 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 81ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:30 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 114ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:30 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 93ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:59:55 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 72ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:55 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 101ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:55 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 68ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 12:59:56 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | GC: 0.0ms)
+Completed 200 OK in 140ms (Views: 64.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:56 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 109ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 12:59:56 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 74ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:00:28 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | GC: 0.2ms)
+Completed 200 OK in 112ms (Views: 35.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:00:28 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 102ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:01 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | GC: 0.0ms)
+Completed 200 OK in 97ms (Views: 17.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/assets/tailwind-a9314061.css" for ::1 at 2025-07-10 13:03:01 +1200
+Started GET "/assets/application-20346a3f.js" for ::1 at 2025-07-10 13:03:01 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:01 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 88ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:01 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 107ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:02 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 73ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:03 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 100ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:03 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 71ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:03 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 72ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:03 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 113ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:03 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 73ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:04 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 71ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:04 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 97ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:04 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 73ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:05 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 69ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:05 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 108ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:05 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 73ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:05 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.1ms)
+Completed 200 OK in 80ms (Views: 1.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:05 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 115ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:05 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 73ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:06 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 73ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:06 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:06 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 69ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:06 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 79ms (Views: 5.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:06 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 98ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:07 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 74ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:13 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 74ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:13 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:13 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 74ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:13 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 78ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:14 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 101ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:14 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 79ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:14 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 76ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:14 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 123ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:14 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 69ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:21 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 72ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:21 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 109ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:21 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 73ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:22 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 75ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:22 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 106ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:22 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 76ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:23 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 70ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:23 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 121ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:23 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 70ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:03:24 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 72ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:24 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 110ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:24 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 72ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:03:26 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:03:26 +1200
+Started GET "/assets/tailwind-a9314061.css" for ::1 at 2025-07-10 13:03:26 +1200
+Started GET "/assets/application-872edc44.js.map" for ::1 at 2025-07-10 13:03:26 +1200
+Started GET "/assets/application-bbc8e8d4.js.map" for ::1 at 2025-07-10 13:03:26 +1200
+Started GET "/" for ::1 at 2025-07-10 13:03:40 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 72ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/application-20346a3f.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/tailwind-a9314061.css" for ::1 at 2025-07-10 13:03:40 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/application-bbc8e8d4.js.map" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:03:40 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 98ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:03:40 +1200
+Started GET "/" for ::1 at 2025-07-10 13:04:38 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | GC: 0.0ms)
+Completed 200 OK in 89ms (Views: 7.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/application-d75057cb.js" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:04:39 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/application-ae25b6b2.js.map" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:04:39 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:04:39 +1200
+Processing by ProductsController#search as */*
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:04:39 +1200
+Completed 200 OK in 171ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:05:04 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | GC: 1.0ms)
+Completed 200 OK in 86ms (Views: 7.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.3ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/application-9042868b.js" for ::1 at 2025-07-10 13:05:04 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/application-fa7a6712.js.map" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:05:04 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 120ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:05:04 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:05:05 +1200
+Started GET "/" for ::1 at 2025-07-10 13:05:15 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 200 OK in 87ms (Views: 8.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.7ms)
+
+
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:05:15 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/application-d75057cb.js" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/assets/application-ae25b6b2.js.map" for ::1 at 2025-07-10 13:05:15 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:05:16 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 81ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:06:37 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 76ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:06:37 +1200
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:06:37 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:06:37 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:06:37 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:06:37 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:06:37 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:06:37 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:06:37 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:06:38 +1200
+Started GET "/assets/application-d75057cb.js" for ::1 at 2025-07-10 13:06:38 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:06:38 +1200
+Started GET "/assets/application-ae25b6b2.js.map" for ::1 at 2025-07-10 13:06:38 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:06:38 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 102ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:10:51 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 80ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/assets/application-d75057cb.js" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:10:51 +1200
+Started GET "/assets/application-ae25b6b2.js.map" for ::1 at 2025-07-10 13:10:51 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:10:52 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:10:52 +1200
+Processing by ProductsController#search as */*
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:10:52 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:10:52 +1200
+Completed 200 OK in 117ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:12:40 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | GC: 1.6ms)
+Completed 200 OK in 90ms (Views: 8.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.7ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:12:40 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/application-3f8a9640.js" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/application-463b515f.js.map" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:12:40 +1200
+Processing by ProductsController#search as */*
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:12:40 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:12:40 +1200
+Completed 200 OK in 226ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:12:41 +1200
+Started GET "/" for ::1 at 2025-07-10 13:12:54 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | GC: 0.0ms)
+Completed 200 OK in 86ms (Views: 5.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.1ms)
+
+
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:12:54 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/application-7e4ebe96.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/application-022f3901.js.map" for ::1 at 2025-07-10 13:12:54 +1200
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:12:55 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:12:55 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:12:57 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 81ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/assets/application-7e4ebe96.js" for ::1 at 2025-07-10 13:12:57 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/assets/application-022f3901.js.map" for ::1 at 2025-07-10 13:12:57 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:12:58 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:12:58 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:12:58 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:12:58 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 91ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:13:09 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | GC: 0.0ms)
+Completed 200 OK in 105ms (Views: 7.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:13:09 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:13:09 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:13:09 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:13:09 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:13:09 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:13:09 +1200
+Started GET "/assets/application-71d0b928.js" for ::1 at 2025-07-10 13:13:09 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:13:09 +1200
+Started GET "/assets/application-6b20fa23.js.map" for ::1 at 2025-07-10 13:13:10 +1200
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:13:10 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:13:10 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:13:10 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:13:10 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 77ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:13:35 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 1.1ms)
+Completed 200 OK in 86ms (Views: 8.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.7ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:13:35 +1200
+Started GET "/assets/tailwind-9615813d.css" for ::1 at 2025-07-10 13:13:35 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:13:35 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/application-7e63a9d6.js" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/assets/application-dd24fdc3.js.map" for ::1 at 2025-07-10 13:13:36 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:13:36 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 91ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:13:47 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | GC: 0.0ms)
+Completed 200 OK in 85ms (Views: 8.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:13:47 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/tailwind-a4b2c0cd.css" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/assets/application-83f1d9cf.js" for ::1 at 2025-07-10 13:13:47 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:13:48 +1200
+Started GET "/assets/application-309ffce4.js.map" for ::1 at 2025-07-10 13:13:48 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 170ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/" for ::1 at 2025-07-10 13:13:56 +1200
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | GC: 0.0ms)
+Completed 200 OK in 85ms (Views: 5.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/stimulus.min-4b1e420e.js" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/turbo.min-3a2e143f.js" for ::1 at 2025-07-10 13:13:56 +1200
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/assets/tailwind-22c07d26.css" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/application-3638217c.js" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/controllers/hello_controller-708796bd.js" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/controllers/index-2ca53332.js" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/application-a5941f0f.js" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/application-8b441ae0.css" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/controllers/application-3affb389.js" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/assets/application-76c0978b.js.map" for ::1 at 2025-07-10 13:13:56 +1200
+Started GET "/products/search" for ::1 at 2025-07-10 13:13:56 +1200
+Processing by ProductsController#search as */*
+Completed 200 OK in 84ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
