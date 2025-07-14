@@ -11,41 +11,45 @@ function ProductList ({selectedBrand}) {
 
   useEffect(() => {
 
-    let ignore = false;
-
-    async function fetchData() {
-
-      try {
-        const response = await fetch(endpoint);
-        if (!response.ok) {
-          throw new Error(`Response status: ${response.status}`);
-        }
-
-        const json = await response.json();
-        if (!ignore) {
-          setData(json);
+    let loaded = false;
+    setLoading(true);// Reset loading state on brand change
+    async function fetchData() 
+    {
+      fetch(endpoint)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(json => {
+          if (!loaded) {
+            setData(json);
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching data:', error);
+          setError(error);
+        }).finally(() => {
+          console.log('Fetch completed');
           setLoading(false);
-        }
-      } catch (error) {
-        console.error(error.message);
-        setError(error);
-      }
+        });
     }
+
 
     fetchData();
 
     return () => {
-      ignore = true;
+      loaded = true;
     };
 }, [selectedBrand]);
 
 
   return (
      <>
-        {loading ? (
+     <Loader />
+        {/* {loading ? (
           <Loader />
-        ) : error ? (
-          <div>Error: {error.message}</div>
         ) : (
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {data.products.map((product) => (
@@ -53,6 +57,7 @@ function ProductList ({selectedBrand}) {
             ))}
           </div>
         )}
+        {error && <div className="text-red-500">Error: {error.message}</div>} */}
      </>
   )
 }
