@@ -1,47 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Loader from './loader';
 import ProductListItem from './ProductListItem';
+import { useGetProducts } from '../Services/useGetProducts';
 
 function ProductList ({selectedBrand}) {
-  const endpoint = selectedBrand ? `products/search?brand=${selectedBrand}` : 'products/search';
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-
-  useEffect(() => {
-
-    let loaded = false;
-    async function fetchData() 
-    {
-      fetch(endpoint)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          return response.json();
-        })
-        .then(json => {
-          if (!loaded) {
-            setData(json);
-          }
-        })
-        .catch(error => {
-          console.error('Error fetching data:', error);
-          setError(error);
-        }).finally(() => {
-          console.log('Fetch completed');
-          setLoading(false);
-        });
-    }
-    fetchData();
-
-    return () => {
-      loaded = true;
-    };
-}, [selectedBrand]);
-
-
+  const { data, loading, error } = useGetProducts(selectedBrand);
   return (
      <>
         {loading ? (
