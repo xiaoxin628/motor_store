@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
   end
 
   def search
-    sleep(2) # Simulate a delay for demonstration purposes
+    # sleep(2) # Simulate a delay for demonstration purposes
     @products.select! { |product| product[:brand] == @selected_brand } if @selected_brand.present?
     render json: { products: @products }
   end

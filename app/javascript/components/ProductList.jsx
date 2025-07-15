@@ -12,7 +12,6 @@ function ProductList ({selectedBrand}) {
   useEffect(() => {
 
     let loaded = false;
-    setLoading(true);// Reset loading state on brand change
     async function fetchData() 
     {
       fetch(endpoint)
@@ -35,8 +34,6 @@ function ProductList ({selectedBrand}) {
           setLoading(false);
         });
     }
-
-
     fetchData();
 
     return () => {
@@ -47,8 +44,7 @@ function ProductList ({selectedBrand}) {
 
   return (
      <>
-     <Loader />
-        {/* {loading ? (
+        {loading ? (
           <Loader />
         ) : (
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -57,7 +53,7 @@ function ProductList ({selectedBrand}) {
             ))}
           </div>
         )}
-        {error && <div className="text-red-500">Error: {error.message}</div>} */}
+        {error && <div className="text-red-500">Error: {error.message}</div>}
      </>
   )
 }
