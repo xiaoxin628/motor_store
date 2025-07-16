@@ -3,7 +3,7 @@ import ProductList from './ProductList'
 import ProductFilters from './ProductFilters';
 
 
-const ProductPage = ({brands}) => {
+function  ProductPage ({brands}) {
    const [selectedBrand, setSelectedBrand] = useState('');
    console.log("selectedBrand", selectedBrand);
   return (

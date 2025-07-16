@@ -19,7 +19,7 @@ function CrewList ({crews}) {
             <tbody>
                 {crews.map((crew) => (
                   <tr className='odd:bg-white even:bg-gray-200 h-12' key={crew.id}>
-                    <CrewListItem key={crew.id} crew={crew} />
+                    <CrewListItem crew={crew} />
                   </tr>
                 ))}
             </tbody>

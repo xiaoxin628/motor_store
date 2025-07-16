@@ -26,9 +26,9 @@ class CrewController < ApplicationController
     #
     20.times do |id|
       @crew_members << {
-        id: (id + 1).to_s.ljust(2, '0'),
-        name: Faker::Name.name,
-        time: Faker::Time.between(from: DateTime.now - 5, to: DateTime.now).strftime('%H:%M:%S'),
+        id: (id + 1).to_s.rjust(3, '0'),
+        name: Faker::Name.first_name,
+        time: Faker::Time.between(from: DateTime.now - 5, to: DateTime.now).strftime('%H:%M'),
         done: Faker::Boolean.boolean,
         quantity: Faker::Number.between(from: 1, to: 100)
       }
