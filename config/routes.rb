@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/home'
-  
+  get 'crews', to: 'crew#index', as: :crews_index
 
   resources :products do
     collection do
@@ -21,5 +20,4 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   root to: 'products#index'
-  
 end

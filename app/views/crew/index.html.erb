@@ -1,0 +1,11 @@
+<div class="bg-white">
+    <div class="crews relative overflow-x-auto shadow-md sm:rounded-lg">
+        <div class="text-blue-500 hover:text-blue-700 underline decoration-blue-500 decoration-2 underline-offset-4">
+        <%= link_to "Back", root_path %>
+        </div>
+      <div data-controller="crews" data-crews='<%= @crew_members.to_json.html_safe %>'> 
+        <div id="app"></div>
+      </div>
+    </div>
+  </div>
+</div>
